@@ -1,0 +1,77 @@
+/* Name: Katherine Walton
+*  Date: 5/30/19
+*  Lab: C13 Fluid Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 90%;
+    background-color: skyblue;
+    margin: auto;
+    border: 1px solid white;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h3{
+    border-bottom: 2px solid 
+
+}
+
+
+header {
+    border-bottom: 2px solid white;
+    text-align: center
+}
+
+#sidebarA {
+    width: 20%;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+ul, li {margin-bottom: 20px 20px 20px 20px;
+    padding: 5px;
+    list-style-position: inside;
+}
+
+p{ margin: 10px;
+   margin-bottom: 20px;
+}
+
+main {
+    width: 48%;
+    height: 600px;
+    float: left;
+    margin-left: 10px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+blockquote{
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#swimmer{width:180px; height:180px;float:left;margin: 8px;}
+#smile{width:130px; height:130px;float:right;margin:8px;margin-left: 8px}
+#book{width:140px; height:180px;}
+
+#sidebarB {
+    width: 25%;
+    height: 500px;
+    float: right;
+    padding: 10px;
+    text-align: center
+}
+footer {
+    clear: both;
+    border-top: 2px solid white;
+    margin-top: 10px;
+}
